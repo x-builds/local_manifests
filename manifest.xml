@@ -15,6 +15,6 @@
  <project path="vendor/xiaomi/stone" name="xmstone/proprietary_vendor_xiaomi-stone" remote="gh" revision="14.0" />
  
  <!--Extras -->
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21" />
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
  
 </manifest>
