@@ -5,14 +5,14 @@
             fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/stone" name="xmstone/android_device_xiaomi_stone" remote="gh" revision="14.0" />
+ <project path="device/xiaomi/stone" name="x-builds/android_device_xiaomi_stone" remote="gh" revision="14.0" />
 
  <!--Kernel -->
- <project path="kernel/xiaomi/sm6375" name="xmstone/android_kernel_qcom_sm8350" remote="gh" revision="14.0" />
- <project path="device/xiaomi/stone-kernel" name="xmstone/android_kernel_xiaomi_stone" remote="gh" revision="14.0" />
+ <project path="kernel/xiaomi/sm6375" name="x-builds/android_kernel_qcom_sm8350" remote="gh" revision="14.0" />
+ <project path="device/xiaomi/stone-kernel" name="x-builds/android_kernel_xiaomi_stone" remote="gh" revision="14.0" />
 
  <!--Vendor -->
- <project path="vendor/xiaomi/stone" name="xmstone/proprietary_vendor_xiaomi-stone" remote="gh" revision="14.0" />
+ <project path="vendor/xiaomi/stone" name="x-builds/proprietary_vendor_xiaomi-stone" remote="gh" revision="14.0" />
  
  <!--Extras -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
