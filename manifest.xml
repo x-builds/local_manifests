@@ -5,14 +5,20 @@
             fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/stone" name="x-builds/android_device_xiaomi_stone" remote="gh" revision="14.0" />
-
+ <project path="device/xiaomi/marble" name="kssrao13882/device_xiaomi_marble-los" remote="gh" revision="lineage-21" />
+ <project path="device/xiaomi/sm8450-common" name="kssrao13882/device_xiaomi_sm8450-common" remote="gh" revision="lineage-21" />
+ 
  <!--Kernel -->
- <project path="kernel/xiaomi/sm6375" name="x-builds/android_kernel_qcom_sm8350" remote="gh" revision="14.0" />
- <project path="device/xiaomi/stone-kernel" name="x-builds/android_kernel_xiaomi_stone" remote="gh" revision="14.0" />
+ <project path="kernel/xiaomi/sm8450" name="cupid-development/android_kernel_xiaomi_sm8450" remote="gh" revision="lineage-21" />
+ <project path="kernel/xiaomi/sm8450-devicetrees" name="cupid-development/android_kernel_xiaomi_sm8450-devicetrees" remote="gh" revision="lineage-21" />
+ <project path="kernel/xiaomi/sm8450-modules" name="cupid-development/android_kernel_xiaomi_sm8450-modules" remote="gh" revision="lineage-21" />
 
  <!--Vendor -->
- <project path="vendor/xiaomi/stone" name="x-builds/proprietary_vendor_xiaomi-stone" remote="gh" revision="14.0" />
+ <project path="vendor/xiaomi/marble" name="kssrao13882/vendor_xiaomi_marble-los" remote="gh" revision="fourteen" />
+ <project path="vendor/xiaomi/sm8450-common" name="kssrao13882/vendor_xiaomi_sm8450-common" remote="gh" revision="lineage-21" />
+ 
+ <!-- Display Hal -->
+ <project path="hardware/qcom-caf/sm8450/display" name="Evolution-XYZ/hardware_qcom-caf_sm8450_display" remote="gh" revision="udc" />
  
  <!--Extras -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
